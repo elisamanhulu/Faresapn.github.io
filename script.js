@@ -6,7 +6,7 @@ let sender;
 if (url.searchParams.get('by') != null) {
   sender = url.searchParams.get('by');
 } else {
-  sender = "Faresa";
+  sender =""EL"
 }
 
 
@@ -74,11 +74,11 @@ document.querySelector(".tombol").addEventListener('click', function () {
                         })
                       }
                     })
-                  })
+                  }) 
                 })
               })
             } else if (result.isDenied) {
-              Swal.fire(`Yakin ga suka sama ${sender}?`, '', 'error').then(function () {
+              Swal.fire(`Yakin ga suka sama ${ s ender}?`, '', 'error').then(function () {    
                 Swal.fire('Yaudah dehh okee sayang :((')
               })
             }
@@ -95,7 +95,7 @@ document.querySelector('.hati').addEventListener('click', function () {
   const teks = document.getElementById('teks');
   const btn = document.querySelector('.tombol');
   teks.classList.remove('d-none')
-  btn.classList.add('d-none')
+  btn.classList.add('d-none')          
   console.log(teks);
   console.log(btn);
 })
