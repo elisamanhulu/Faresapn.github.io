@@ -6,8 +6,8 @@ let sender;
 if (url.searchParams.get('by') != null) {
   sender = url.searchParams.get('by');
 } else {
-  sender = "Faresa";
-}
+  sender = "EL";
+ } 
 
 
 document.querySelector(".tombol").addEventListener('click', function () {
